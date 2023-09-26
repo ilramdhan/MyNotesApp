@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.dicoding.mynotesapp.R
 import com.dicoding.mynotesapp.databinding.ItemNoteBinding
 
+
 class NoteAdapter(private val onItemClickCallback: OnItemClickCallback) :
     RecyclerView.Adapter<NoteAdapter.NoteViewHolder>() {
     var listNotes = ArrayList<Note>()
